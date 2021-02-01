@@ -9,7 +9,7 @@ on:
   pull_request:
     branches: [master]
   schedule:
-    - cron: 0 3 * * *
+    - cron: 0 14 * * *
     # 国家时间 3点 北京时间11点触发
 jobs:
   build:
